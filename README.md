@@ -36,3 +36,19 @@ IntelliJ IDEA
   可调试 org.springframework.context.support.ClassPathXmlApplicationContextTests 这个单元测试类里的方法。例如 #testResourceAndInputStream() 方法。
 
   ④ 解析 Properties 配置文件成对应的 BeanDefinition 们的流程
+
+  可调试 org.springframework.beans.factory.support.PropertiesBeanDefinitionReaderTests 这个单元测试里的方法。
+
+  另外，也推荐阅读下 [《spring beans源码解读之 – BeanDefinition 解析器》](https://www.bbsmax.com/A/KE5QLe8PJL/) 一文。
+
+  ⑤ 调试 Spring AOP 相关的流程
+
+  参见 [《精尽 Spring 源码分析 —— AOP 源码简单导读》](http://svip.iocoder.cn/Spring/aop-simple-intro)
+
+  ⑥ 调试 Spring Transaction 相关的流程
+
+  参见 [《精尽 Spring 源码分析 —— Transaction 源码简单导读》](http://svip.iocoder.cn/Spring/transaction-simple-intro)
+
+  ⑦ 调试 Spring MVC 相关的流程
+
+  参见 [《精尽 Spring MVC 源码分析 —— 调试环境搭建》](http://svip.iocoder.cn/Spring-MVC/build-debugging-environment)
